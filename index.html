@@ -1,43 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Students Projects - Home Page</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
-        <div class="LOGO">4578</div>
-        <section>
-            <div class="menu">HOME</div>
-            <div class="menu">ABOUT US</div>
-            <div class="menu">GALLERY</div>
-            <div class="menu">CONTACT</div>
-        </section>
+        <div class="logo">4578</div>
+        <nav>
+            <ul>
+                <li>HOME</li>
+                <li>ABOUT US</li>
+                <li>GALLERY</li>
+                <li>CONTACT</li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <img src="Images/homepage-background.jpg"/>
         <div class="projectForm">
-            <h1>Student Project</h1>
+            <h1 style="font-size: 64px; font-weight: normal;">Student Project</h1>
             <form>
-                <label>Name *
-                    <input type="text"/>
-                </label>
-                <label>Email *
-                    <input type="email"/>
-                </label>
-                <label>Phone
-                    <input type="tel"/>
-                </label>
-            </form>
-            <form>
-                <label>Message *
-                    <textarea cols="30" rows="10"></textarea>
-                </label>
-                <label class="submitButton">
-                    <input type="button" value="SUBMIT MESSAGE">
-                </label>
+                <div class="formDiv">
+                    <label>Name *
+                        <input type="text" />
+                    </label>
+                    <label>Email *
+                        <input type="email" />
+                    </label>
+                    <label>Phone
+                        <input type="tel" />
+                    </label>
+                </div>
+                <div class="formDiv" style="margin-left: 20px;">
+                    <label>Message *
+                        <textarea cols="22" rows="9"></textarea>
+                    </label>
+                    <button>SUBMIT MESSAGE</button>
+                </div>
             </form>
         </div>
     </main>
@@ -52,23 +55,24 @@
         </div>
         <div class="myProjects">
             <h1>MY PROJECTS</h1>
-            <img src="Images/BankLogin.PNG">
-            <img src="Images/MultiplicationTable.PNG">
-            <img src="Images/PokemonGOSite2.PNG">
-            <img src="Images/PokemonGOSite3.PNG">
-            <img src="Images/ProjectManagementSite.PNG">
-            <img src="Images/SPNI.png">
+            <img class="gallery" src="Images/BankLogin.PNG">
+            <img class="gallery" src="Images/MultiplicationTable.PNG">
+            <img class="gallery" src="Images/PokemonGOSite2.PNG">
+            <img class="gallery" src="Images/PokemonGOSite3.PNG">
+            <img class="gallery" src="Images/ProjectManagementSite.PNG">
+            <img class="gallery" src="Images/SPNI.png">
         </div>
         <div class="news">
             <h1>NEWSLETTER REGISTRATION</h1>
             <P>Subscribe today to receive the latest Day news via email. You may unsubscribe from this service at any time</P>
             <form>
                 <label>
-                    <input type="email" placeholder="ENTER EMAIL"/>
+                    <input type="email" placeholder="ENTER EMAIL" />
                 </label>
             </form>
             <div class="subscribeButton">SUBSCRIBE</div>
         </div>
     </footer>
 </body>
+
 </html>
